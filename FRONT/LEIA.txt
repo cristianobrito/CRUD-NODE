@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=4VATFkV8Nfo&list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9&index=16
+
+1 . a primeira coisa que devo fazer na pasta depois de entrar nela é dar o comando 
+    npm init 
+    depois desse comando todos os outros serão aceitos
+    ex:
+    npm i express
+    npm i express --save 
+
+2 . lembre-se de ver o arquivo package.json para saber quais dependencias instalar 
+
+3 . crie dentro da pasta " front " uma pasta chamda " views " é obrigatorio ter esse nome
+
+4 . dentro da pasta " views " crie um arquivo chamado " inicio.handlebars "
+
+5 . dentro da pasta " views " crie outra pasta chamada " layouts "
+
+6 . dentro da pasta " layouts " crie um arquivo chamado " principal.handlebars "
+    obs:de inicio esse arquivo principal.handlebars tem toda estrutura simples em html ao contrario de arquivo inicio.handlebars que até esse ponto um <h1>
+
+7 . agora crie um arquivo novo chamado " app.js "
+
+8 . obs: crie esse arquivo app.js dentro da pasta raiz FRONT 
+
+9 . feitos as edições suba o servidor abra o terminal e de o comando
+    nodemon app.js
+
+10 . crie uma pasta com o nome "public"
+
+11 . dentro dessa pasta " public " crie outras 2 pastas " imagens " e " css "
+
+12 . crie na pasta views o arquivo " selecionar.handlebars "
+
+13 . https://www.youtube.com/watch?v=O2DFKHla80A  
+     git 

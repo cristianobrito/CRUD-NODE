@@ -1,0 +1,14 @@
+1 . apos entrar na pasta " back " de o comando npm init 
+2 . no meu quando entro e dou o comando 
+    npm i json-server 
+    parentemente depois de atualizar a pasta não instala sem o comando npm init
+
+3 . crie o arquivo " clientes.json " dentro da pasta back
+4 . npx json-server clientes.json
+    só com esse comando que funciona no terminal do vs code
+
+5 . agora va para o front não feche o servidor fake deixo ele rodando
+    abra um novo vscode com o front 
+
+    https://www.youtube.com/watch?v=O2DFKHla80A  
+    git  

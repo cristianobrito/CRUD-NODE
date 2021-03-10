@@ -1,0 +1,31 @@
+{{!-- Formulário --}}
+<div class="container">
+    <div class="card">
+<form action="/cadastrar" method="POST" class="container col-5 pt-3">
+    <img src="/imagens/user4.gif" alt="" width="320" height="200" class="mx-auto d-block">
+    <input type="text" placeholder="Nome" name="nome" class="form-control col-sm-10  m-3  mx-auto d-block">
+    <input type="text" placeholder="Idade" name="idade" class="form-control col-sm-10 m-3 mx-auto d-block">
+    <input type="submit" placeholder="Cadastrar" class="btn btn-primary col-10 m-3 mx-auto d-block">
+</form>
+{{!-- tabela --}}
+    <table class="table mx-auto col-10 table-striped">
+        <thead class="thead-dark text-center">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Selecionar</th>
+            </tr>
+        </thead>
+
+        <tbody class=" text-center">
+            {{#each dados}}
+            <tr>
+                <td>{{nome}}</td>
+                <td>{{idade}}</td>
+                <td><a href="selecionar/{{id}}">Selecionar</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+</div>

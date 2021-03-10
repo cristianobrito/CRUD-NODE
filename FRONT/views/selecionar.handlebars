@@ -1,0 +1,15 @@
+{{!-- Formulário --}}
+<div class="container">
+    <div class="card">
+<form action="/editar" method="POST" class="container col-5 pt-3">
+    <img src="/imagens/user3.gif" alt="" width="320" height="200" class="mx-auto d-block">
+    <input type="text"    value={{dados.id}} name="id" class="form-control col-sm-10  m-3  mx-auto d-block" readonly>
+    <input type="text"    value={{dados.nome}}   placeholder="Nome"   name="nome" class="form-control col-sm-10  m-3  mx-auto d-block">
+    <input type="text"    value={{dados.idade}}  placeholder="Idade"  name="idade" class="form-control col-sm-10 m-3 mx-auto d-block">
+    <input type="submit"  value="Editar"         placeholder="Cadastrar" class="btn btn-warning col-3 m-3 ">
+
+    <a href="/remover/{{dados.id}}" class="btn btn-danger    col-3 m-3">Remover</a>
+    <a href="/" class="btn btn-secondary col-3 m-3">Cancelar</a>
+</form>
+</div>
+</div>
